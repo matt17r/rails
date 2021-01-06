@@ -225,7 +225,7 @@ The full set of methods that can be used in this block are as follows:
 * `stylesheets` turns on the hook for stylesheets in generators. Used in Rails for when the `scaffold` generator is run, but this hook can be used in other generates as well. Defaults to `true`.
 * `stylesheet_engine` configures the stylesheet engine (for e.g. sass) to be used when generating assets. Defaults to `:css`.
 * `scaffold_stylesheet` creates `scaffold.css` when generating a scaffolded resource. Defaults to `true`.
-* `test_framework` defines which test framework to use. Defaults to `false` and will use minitest by default.
+* `test_framework` defines which test framework to use. Defaults to `false` and will use minitest by default. \[Two defaults 🤔\]
 * `template_engine` defines which template engine to use, such as ERB or Haml. Defaults to `:erb`.
 
 ### Configuring Middleware
